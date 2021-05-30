@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mongoose form</title>
+  </head>
+  <body>
+    <h1>Welcome to Mongoose Form</h1>
+
+    <form action="http://localhost:8080/register/" method="post">
+      Fname:- <input type="text" name="fname" /><br />
+      Lname:-<input type="text" name="lname" /><br />
+      Email:-<input type="email" name="email" /><br />
+      ContactNo.:-<input type="number" name="contact" /><br />
+      Address:- <textarea name="address" id="" cols="30" rows="10"></textarea>
+      <br />
+      <h3>Gender</h3>
+      <input type="radio" name="gender" value="male" />Male <br />
+      <input type="radio" name="gender" value="female" />Female <br />
+      <input type="radio" name="gender" value="other" />Others <br />
+      DOB:-<input type="datetime" name="dob" /><br />
+      <h3>Language</h3>
+      <input type="checkbox" name="lang" value="eng" /> English<br />
+      <input type="checkbox" name="lang" value="hindi" /> Hindi<br />
+      <input type="checkbox" name="lang" value="Bike" /> Others<br />
+      Country:- <input type="txt" name="country" /><br /><br />
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
